@@ -14,15 +14,15 @@
             templateUrl: 'views/nerd.html',
             controller: 'NerdController'
         })
-
-        // nerds page that will use the NerdController
-        .when('/blog', {
+        //super page that will use the NerdController
+       .when('/blog', {
             templateUrl: 'views/blog.html',
             controller: 'BlogController'
-        })
+        });
+       
         
 
 
-    $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(true).hashPrefix('!');
 
 }]);

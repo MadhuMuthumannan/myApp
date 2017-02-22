@@ -1,10 +1,8 @@
 angular.module('BlogCtrl', []).controller('BlogController', function($scope) {
 
     $scope.tagline = 'Nothing beats a pocket protector!';
-    var posts = {};
-
-    posts = 
-      [
+    $scope.posts = 
+          [
   {
         "title": "Blog Post One",
         "body": [
@@ -20,7 +18,7 @@ angular.module('BlogCtrl', []).controller('BlogController', function($scope) {
             "author": "trollguy87"
           }
         ],
-        "likes":0,
+        "likes":3,
         "image":"http://placekitten.com/g/2000/600",
         "createdOn":1408547127216
   },
@@ -39,7 +37,7 @@ angular.module('BlogCtrl', []).controller('BlogController', function($scope) {
             "author": "trollguy87"
           }
         ],
-        "likes":0,
+        "likes":34,
         "image":"http://placekitten.com/g/2000/600",
         "createdOn":1408547127216
   },
@@ -59,7 +57,7 @@ angular.module('BlogCtrl', []).controller('BlogController', function($scope) {
             "author": "trollguy87"
           }
         ],
-        "likes":0,
+        "likes":5,
         "image":"http://placekitten.com/g/2000/600",
         "createdOn":1408547127216
   },
@@ -79,7 +77,7 @@ angular.module('BlogCtrl', []).controller('BlogController', function($scope) {
             "author": "trollguy87"
           }
         ],
-        "likes":0,
+        "likes":9,
         "image":"http://placekitten.com/g/2000/600",
         "createdOn":1408547127216
   }

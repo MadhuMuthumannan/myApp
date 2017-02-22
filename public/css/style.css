@@ -1,6 +1,15 @@
 @blue: #79B9D2;
 @accent: darken(@blue,20);
 
+
+.blabla{
+    color:#254984;
+}
+
+.fa fa-comment fa-heart{
+    size: 3px;
+}
+
 * {
   box-sizing:border-box;
 }
